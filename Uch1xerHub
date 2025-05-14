@@ -54,7 +54,7 @@ local function makeToggle(text, yPos)
     local dot = Instance.new("Frame")
     dot.Size = UDim2.new(0, 16, 0, 16)
     dot.Position = UDim2.new(0, 2, 0.5, -8)
-    dot.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    dot.BackgroundColor3 = Color3.new(0.5, 1, 1)
     dot.BorderSizePixel = 0
     dot.Parent = btn
     Instance.new("UICorner", dot).CornerRadius = UDim.new(1, 0)
